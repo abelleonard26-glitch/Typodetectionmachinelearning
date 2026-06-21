@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Artefak sementara
+_remig*.joblib
+_ver_check.ipynb
+
+# Lingkungan virtual
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
+
+# CATATAN: folder models/ SENGAJA TIDAK diabaikan.
+# Streamlit Cloud membutuhkan file model terlatih saat deploy,
+# jadi pastikan folder models/ ikut di-commit ke repository.

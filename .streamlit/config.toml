@@ -1,0 +1,8 @@
+# Konfigurasi tampilan & server untuk aplikasi Streamlit.
+[theme]
+primaryColor = "#4C72B0"
+base = "light"
+
+[server]
+# Tidak membuka browser otomatis saat dijalankan di server/headless.
+headless = true
